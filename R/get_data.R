@@ -35,7 +35,7 @@ get_data <- function(data, id_num, n){
 
   # core function
   set.seed(id_num)
-  sample_data <- dplyr::sample_n(data_to_be_sample, n = sample_size)
+  sample_data <- dplyr::sample_n(data_to_be_sample, size = sample_size)
   return(sample_data)
 
   # re-establish warnings
