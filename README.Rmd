@@ -15,7 +15,7 @@ Para instalar la versión más actualizada de la librería en R, disponible en e
 devtools::install_github("dacarras/psi2301")
 ```
 
->Nota: este commando requiere que la librería `devtools` se encuentre instalada.
+>Nota: este comando requiere que la librería `devtools` se encuentre instalada.
 
 # Desarollo
 

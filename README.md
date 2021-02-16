@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-A line I wrote on my local computer
-=======
 
 # psi2301
 
@@ -17,7 +14,7 @@ emplear el siguiente comando:
 devtools::install_github("dacarras/psi2301")
 ```
 
-> Nota: este commando requiere que la librería `devtools` se encuentre
+> Nota: este comando requiere que la librería `devtools` se encuentre
 > instalada.
 
 # Desarollo
@@ -37,5 +34,3 @@ devtools::install_github("dacarras/psi2301")
 
 -   `get_data()` genera una muestra aleatorio de datos, de un tamaño
     especificado, condicional al id number del usuario.
->>>>>>> b1e38c04fa04bc690dcf6ac5485195ef11ffe0c1
-A line I wrote on my local computer
