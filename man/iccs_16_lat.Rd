@@ -5,24 +5,25 @@
 \alias{iccs_16_lat}
 \title{ICCS 2016}
 \format{
-An object of class \code{"cross"}; see \code{\link[qtl]{read.cross}}.
+Objeto clase \code{"cross"}; ver \code{\link[qtl]{read.cross}}.
 }
 \source{
-\href{https://phenome.jax.org/projects/Moore1b}{QTL Archive}
+\href{https://www.iea.nl/index.php/data-tools/repository/iccs}
 }
 \usage{
-data(iccs_2016_lat)
+data(iccs_16_lat)
 }
 \description{
-Datos del Estudio Internacional de Educación Cívica ICCS 2016,
-del modulo latinoamericano.
+Datos del Estudio Internacional sobre Educación Cívica y Ciudadana (ICCS).
+Esta tabla de datos, incluye las observaciones del módulo latino americano.
+Estos datos inlcuyen muestras representativas de estudiantes de octavo grado,
+de Chile, Colombia, México, República Dominicana, y Perú.
 }
 \examples{
 data(iccs_16_lat)
 dplyr::glimpse(iccs_16_lat)
 }
 \references{
-Moore et al. (2013) Genetics 195:1077-1086
-(\href{https://www.ncbi.nlm.nih.gov/pubmed/23979570}{PubMed})
+Schulz, W., Carstens, R., Losito, B., & Fraillon, J. (2018). ICCS 2016 Technical Report (W. Schulz, R. Carstens, B. Losito, & J. Fraillon (eds.)). International Association for the Evaluation of Educational Achievement (IEA).
 }
 \keyword{datasets}
