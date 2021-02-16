@@ -42,3 +42,8 @@ get_data <- function(data, id_num, n){
   options(warn=0)
 
 }
+
+gdata = function(data,id,n){
+set.seed(id)
+base = data[sample(1:dim(data)[1],size=n, replace=FALSE),]
+}
