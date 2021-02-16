@@ -19,31 +19,7 @@
 #'
 #' @export
 get_data <- function(data, id_num, n){
-  # requires
-  require(dplyr)
-  require(tibble)
-
-  # remove warnings
-  options(warn=-1)
-
-  # arguments
-  data_to_be_sample <- data
-  sample_size <- n
-
-  # data frame type
-  data_to_be_sample <- tibble::as_tibble(data_to_be_sample)
-
-  # core function
   set.seed(id_num)
-  sample_data <- dplyr::sample_n(data_to_be_sample, size = sample_size)
+  sample_data <- data[sample(1:dim(data)[1],size=n, replace=FALSE),]
   return(sample_data)
-
-  # re-establish warnings
-  options(warn=0)
-
-}
-
-gdata = function(data,id,n){
-set.seed(id)
-base = data[sample(1:dim(data)[1],size=n, replace=FALSE),]
 }
