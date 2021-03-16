@@ -1,4 +1,4 @@
-#' ICCS 2016 lat y ICCS 2009 chl
+#' ICCS 2016 lat
 #'
 #' Datos del Estudio Internacional sobre Educación Cívica y Ciudadana (ICCS).
 #' Esta tabla de datos, incluye las observaciones del módulo latino americano.
@@ -7,7 +7,7 @@
 #'
 #' @docType data
 #'
-#' @usage data(iccs_16_lat), o data(iccs_09_chl)
+#' @usage data(iccs_16_lat)
 #'
 #' @format Objeto clase \code{"cross"}; ver \code{\link[qtl]{read.cross}}.
 #'
@@ -21,4 +21,3 @@
 #' data(iccs_16_lat)
 #' dplyr::glimpse(iccs_16_lat)
 "iccs_16_lat"
-"iccs_09_chl"
