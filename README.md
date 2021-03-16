@@ -11,10 +11,10 @@ en el repositorio [github](https://github.com/dacarras/psi2301) se puede
 emplear el siguiente comando:
 
 ``` r
-devtools::install_github("dacarras/psi2301")
+remotes::install_github("dacarras/psi2301")
 ```
 
-> Nota: este comando requiere que la librería `devtools` se encuentre
+> Nota: este comando requiere que la librería `remotes` se encuentre
 > instalada.
 
 # Desarollo
