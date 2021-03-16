@@ -8,7 +8,7 @@
 Objeto clase \code{"cross"}; ver \code{\link[qtl]{read.cross}}.
 }
 \source{
-\href{https://www.iea.nl/index.php/data-tools/repository/iccs}
+IEA, <https://www.iea.nl/index.php/data-tools/repository/iccs>
 }
 \usage{
 data(iccs_09_chl)

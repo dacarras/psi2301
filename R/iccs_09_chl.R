@@ -14,7 +14,7 @@
 #'
 #' @references
 #'
-#' @source \href{https://www.iea.nl/index.php/data-tools/repository/iccs}
+#' @source IEA, <https://www.iea.nl/index.php/data-tools/repository/iccs>
 #'
 #' @examples
 #' data(iccs_09_chl)

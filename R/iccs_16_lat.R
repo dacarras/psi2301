@@ -15,7 +15,7 @@
 #'
 #' @references Schulz, W., Carstens, R., Losito, B., & Fraillon, J. (2018). ICCS 2016 Technical Report (W. Schulz, R. Carstens, B. Losito, & J. Fraillon (eds.)). International Association for the Evaluation of Educational Achievement (IEA).
 #'
-#' @source \href{https://www.iea.nl/index.php/data-tools/repository/iccs}
+#' @source IEA, <https://www.iea.nl/index.php/data-tools/repository/iccs>
 #'
 #' @examples
 #' data(iccs_16_lat)
