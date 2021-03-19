@@ -17,23 +17,10 @@ data(data_dem)
 Datos del Estudio Internacional sobre Educación Cívica y Ciudadana (ICCS).
 Esta tabla de datos, incluye las observaciones del módulo internacional, y
 del modulo latino americano.
-Estos datos inlcuyen 500 casos de cada país.
-}
-\details{
-Las variables incluidas son:
-
-| variable  |type | labels                                                                                 |
-| :---------|:--  | :--------------------------------------------------------------------------------------|
-| id_i      |dbl  | id unico del caso                                                                      |
-| ctry      |chr  | nombre del país                                                                        |
-| sex       |dbl  | sexo del estudiante (0 = niño, 1 = niña)                                               |
-| age       |dbl  | edad del estudiante en años (media = 14.25, sd = .99                                   |
-| dem       |dbl  | perfil de concepciones de las democracia (1 = minimalista, 2 = complejo, 3 = limitado) |
-| dem_group |chr  | perfil de concepciones de las democracia (en texto)                                    |
-| aut       |dbl  | creencias antidemocráticas (AUTGOV, media =  50, sd = 10)                              |
-| civ       |dbl  | conocimiento cívico (PV1CVI, media =  500, sd = 100)                                   |
-| ses       |dbl  | nivel socioecónomico (media = 0, sd = 1, en cada país                                  |
-| edu       |dbl  | educación de los padres (1 = educación universitaria, 0 = otro nivel educativo         |
+Estos datos inlcuyen 500 casos de cada país, ademas de variables tales como:
+sexo, edad, perfil de concepciones de la democracia,
+creencias antidemocraticas, conocimiento cívico, nivel socioeconómico, y
+educacion de los padres.
 }
 \examples{
 data(data_dem)
