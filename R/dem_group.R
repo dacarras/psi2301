@@ -10,7 +10,7 @@
 #'
 #' @docType data
 #'
-#' @usage data(data_dem)
+#' @usage data(dem_group)
 #'
 #' @format Objeto clase \code{"cross"}; ver \code{\link[qtl]{read.cross}}.
 #'
@@ -21,6 +21,6 @@
 #' @source IEA, <https://www.iea.nl/index.php/data-tools/repository/iccs>
 #'
 #' @examples
-#' data(data_dem)
-#' dplyr::glimpse(data_dem)
-"data_dem"
+#' data(dem_group)
+#' dplyr::glimpse(dem_group)
+"dem_group"
