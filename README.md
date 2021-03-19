@@ -15,7 +15,7 @@ remotes::install_github("dacarras/psi2301")
 ```
 
 > Nota: este comando requiere que la librería `remotes` se encuentre
-> instalada.
+> instalada. Para instalar remotes ocupar `install.packages('remotes')`.
 
 # Desarollo
 

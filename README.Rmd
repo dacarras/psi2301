@@ -15,7 +15,7 @@ Para instalar la versión más actualizada de la librería en R, disponible en e
 remotes::install_github("dacarras/psi2301")
 ```
 
->Nota: este comando requiere que la librería `remotes` se encuentre instalada.
+>Nota: este comando requiere que la librería `remotes` se encuentre instalada. Para instalar remotes ocupar `install.packages('remotes')`.
 
 # Desarollo
 
