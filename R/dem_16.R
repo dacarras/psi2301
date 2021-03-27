@@ -21,6 +21,6 @@
 #' @source IEA, <https://www.iea.nl/index.php/data-tools/repository/iccs>
 #'
 #' @examples
-#' data(dem_group)
-#' dplyr::glimpse(dem_group)
-"dem_group"
+#' data(dem_16)
+#' dplyr::glimpse(dem_16)
+"dem_16"
