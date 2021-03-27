@@ -6,7 +6,7 @@
 #' Estos datos inlcuyen 500 casos de cada país, ademas de variables tales como:
 #' sexo, edad, perfil de concepciones de la democracia,
 #' creencias antidemocraticas, conocimiento cívico, nivel socioeconómico, y
-#' educacion de los padres.
+#' educacion de los padres, y niveles de conocimiento cívico.
 #'
 #' @docType data
 #'
