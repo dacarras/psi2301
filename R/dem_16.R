@@ -10,7 +10,7 @@
 #'
 #' @docType data
 #'
-#' @usage data(dem_group)
+#' @usage data(dem_16)
 #'
 #' @format Objeto clase \code{"cross"}; ver \code{\link[qtl]{read.cross}}.
 #'
