@@ -14,7 +14,7 @@ INE, <https://www.ine.cl/estadisticas/sociales/ingresos-y-gastos/encuesta-de-pre
 data(ingresos_2016)
 }
 \description{
-Muetsra de 1120 casos aleatorios (20 caso por estrato), de los ingresos per capita,
+Muestra de 1120 casos aleatorios (20 caso por estrato), de los ingresos per capita,
 provenientes de la base de datos "Encuesta de Presupuestos Familiares" (2016)
 Incluye los datos de ingresos per capita por hogar en unidad de 1000,
 sexo de los participantes, años de escolaridad alcanzada, y cantidad de personas
