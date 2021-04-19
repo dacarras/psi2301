@@ -1,4 +1,4 @@
-#' mean_score() computes the mean for a given set of variables in a row wise manner
+#' mean_score() computes the mean for a given set of variables in a row wise manner, design to work within mutate() chains
 #'
 #' @param x,y,z are set of variables from a data frame (i.e. a selection of numeric columns)
 #'

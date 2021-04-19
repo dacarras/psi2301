@@ -2,7 +2,7 @@
 % Please edit documentation in R/mean_score.R
 \name{mean_score}
 \alias{mean_score}
-\title{mean_score() computes the mean for a given set of variables in a row wise manner}
+\title{mean_score() computes the mean for a given set of variables in a row wise manner, design to work within mutate() chains}
 \usage{
 mean_score(..., na.rm = TRUE)
 }
@@ -13,7 +13,7 @@ mean_score(..., na.rm = TRUE)
 a numeric vector
 }
 \description{
-mean_score() computes the mean for a given set of variables in a row wise manner
+mean_score() computes the mean for a given set of variables in a row wise manner, design to work within mutate() chains
 }
 \details{
 simple wrapper to produce row wise means (default is na.rm=TRUE)
