@@ -19,6 +19,6 @@
 #' @source
 #'
 #' @examples
-#' data(amistad_intergrupal)
-#' dplyr::glimpse((amistad_intergrupal)
-"amistad_intergrupal"
+#' data(amistad)
+#' dplyr::glimpse((amistad)
+"amistad"
