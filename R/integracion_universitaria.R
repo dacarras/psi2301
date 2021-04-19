@@ -2,8 +2,7 @@
 #'
 #' La base de datos se basa en una sub-muestra de 250 alumnos de la universida
 #' que contestaron una encuesta enfocada en distintos ámbitos de su experiencia
-#' de integración en la universidad. El cuestionario incluye preguntas
-#' sobre las siguientes dimensiones:
+#' de integración en la universidad.
 #'
 #' @docType data
 #'
