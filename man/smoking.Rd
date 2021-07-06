@@ -55,11 +55,12 @@ pretri2: dummy variable for ﬁrst prenatal care visit having occurred in second
 
 pretri3: dummy variable for ﬁrst prenatal care visit having occurred in third trimester (1: yes; 0: no)
 
-Notes: Smoking status was determined from the answer to the question asked on the birth certiﬁcate 
-whether there was tobacco use during pregnancy. The dummy variables for mother’s education—hsgrad, 
-somecoll, and collgrad—were derived from the years of education given on the birth certiﬁcate. 
-The Kessner index is a measure of the adequacy of prenatal care (1: adequate; 2: intermediate; 3: inadequate) 
-based on the timing of the ﬁrst prenatal visit and the number of prenatal visits, 
+
+Notes: Smoking status was determined from the answer to the question asked on the birth certiﬁcate
+whether there was tobacco use during pregnancy. The dummy variables for mother’s education—hsgrad,
+somecoll, and collgrad—were derived from the years of education given on the birth certiﬁcate.
+The Kessner index is a measure of the adequacy of prenatal care (1: adequate; 2: intermediate; 3: inadequate)
+based on the timing of the ﬁrst prenatal visit and the number of prenatal visits,
 taking into account the gestational age of the fetus.
 }
 \examples{
