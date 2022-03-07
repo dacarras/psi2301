@@ -1,0 +1,27 @@
+#' PTSD data
+#'
+#' Datos del artículo "Rehabilitating civilian victims of war through psychosocial intervention in Sierra Leone",
+#' de Mughal, Carrasco, Brown & Ayers (2015). Este estudio evalua los niveles de estres post traumatico (PTSD),
+#' de adultos en tratamiento en Sierra Leona. El grupo en tratamiento (n=50), fue reclutado por equipos de la
+#' Universidad de Makeni; mientras que el grupo de control, eran adultos en lista de espera del 
+#' Holy Trinity Hospital.
+#' 
+#' @docType data
+#'
+#' @usage data(ptsd_data)
+#'
+#' @format Objeto clase \code{"cross"}; ver \code{\link[qtl]{read.cross}}.
+#'
+#' @keywords datasets
+#'
+#' @references Mughal, U., Carrasco, D., Brown, R., & Ayers, S. (2015). 
+#' Rehabilitating civilian victims of war through psychosocial 
+#' intervention in Sierra Leone. Journal of Applied Social Psychology, 
+#' 45(11), 593–601. https://doi.org/10.1111/jasp.12322
+#'
+#' @source http://doi.wiley.com/10.1111/jasp.12322
+#'
+#' @examples
+#' data(ptsd_data)
+#' dplyr::glimpse((ptsd_data)
+"ptsd_data"
