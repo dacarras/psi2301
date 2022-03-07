@@ -19,18 +19,14 @@ remotes::install_github("dacarras/psi2301")
 
 # Desarollo
 
-## Pendientes
+## Listado de funciones
 
--   ~~agregar datos de ejemplos~~
--   agregar viñetas
-
-## Listo
-
--   función que genera muestra de datos aleatorios
-
-# Listado de funciones
-
-## Datos
-
+-   `c_mean()` calcula medias por grupo. Función incluida para crear
+    centrado de variables.
 -   `get_data()` genera una muestra aleatorio de datos, de un tamaño
     especificado, condicional al id number del usuario.
+-   `mean_score()` calcula promedio de respuesta, de un conjunto de
+    variables. Sirve para generar puntajes basados en promedios.
+-   `sum_score()` calcula suma de respuesta, de un conjunto de
+    variables. Sirve para generar puntajes basados en sumas.
+-   `z_score()` calcula puntaje zeta de un vector o variable.
