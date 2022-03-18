@@ -28,5 +28,32 @@ devtools::install_github('dacarras/psi2301',force = TRUE)
 - `mean_score()` calcula promedio de respuesta, de un conjunto de variables. Sirve para generar puntajes basados en promedios.
 - `sum_score()` calcula suma de respuesta, de un conjunto de variables. Sirve para generar puntajes basados en sumas.
 - `z_score()` calcula puntaje zeta de un vector o variable.
+- `reverse`()` calcula el inverso de un puntaje.
+- `remove_labels`()` remueve la metada de una base de datos.
 
+# Datos
 
+- accionescolestivas
+- amistad_intergrupal
+- b5
+- coes_2014
+- data
+- dem_16
+- desarollo_psicomotor
+- elpi3
+- homonegatividad
+- iccs_09_chl
+- iccs_09_lat
+- iccs_16_lat
+- iccs_2009
+- iccs_2016
+- ingresos_2016
+- injuv_2012
+- integracion_universitaria
+- life_2000
+- ptsd_data
+- smoking
+- terce
+- terremoto
+
+Para acceder a la descripción de los datos ejecutar `? psi23::[nombre de los datos]`, por ejemplo `? psi2301::smoking`.

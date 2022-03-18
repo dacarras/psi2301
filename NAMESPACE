@@ -3,5 +3,7 @@
 export(c_mean)
 export(get_data)
 export(mean_score)
+export(remove_labels)
+export(reverse)
 export(sum_score)
 export(z_score)
