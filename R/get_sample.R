@@ -1,4 +1,4 @@
-#' get_data() Genera una muestra aleatoria de datos, única para el usuario, reproducible y condicional a su id númerica
+#' get_sample() Genera una muestra aleatoria de datos, única para el usuario, reproducible y condicional a su id númerica
 #'
 #' @param data es una tabla de datos tipo data frame, donde las filas son observaciones, y las columnas son atributos de las observaciones
 #'
@@ -11,14 +11,14 @@
 #' @examples
 #'
 #'
-#' data_tarea_1 <- psi2301::get_data(
+#' data_tarea_1 <- psi2301::get_sample(
 #'                 data = data_iccs,
 #'                 id_num = 12128485,
-#'                 n = 500)
+#'                 n = 1000)
 #'
 #'
 #' @export
-get_data <- function(data, id_num, n){
+get_sample <- function(data, id_num, n){
   set.seed(id_num)
   sample_data <- data[sample(1:dim(data)[1],size=n, replace=FALSE),]
   return(sample_data)
