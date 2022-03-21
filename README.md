@@ -24,7 +24,7 @@ devtools::install_github('dacarras/psi2301',force = TRUE)
 
 -   `c_mean()` calcula medias por grupo. Función incluida para crear
     centrado de variables.
--   `get_data()` genera una muestra aleatorio de datos, de un tamaño
+-   `get_sample()` genera una muestra aleatorio de datos, de un tamaño
     especificado, condicional al id number del usuario.
 -   `mean_score()` calcula promedio de respuesta, de un conjunto de
     variables. Sirve para generar puntajes basados en promedios.
@@ -44,6 +44,7 @@ devtools::install_github('dacarras/psi2301',force = TRUE)
 -   dem_16
 -   desarollo_psicomotor
 -   elpi3
+-   hsb
 -   homonegatividad
 -   iccs_09_chl
 -   iccs_09_lat
