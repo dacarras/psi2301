@@ -13,7 +13,8 @@
 #' @export
 reverse <- function(var){
 # remove labels
-var <- dplyr::mutate(var, across(everything(), as.vector))
+var <- labelled::remove_labels(var)
+var <- haven::zap_labels(var)
 
 # get max and min of vector
 max <- max(var, na.rm = TRUE)
