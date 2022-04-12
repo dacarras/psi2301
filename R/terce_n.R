@@ -1,4 +1,4 @@
-#' terce (respuestas de covariables como texto)
+#' terce (variables recodificadas a numericas)
 #'
 #' Este estudio evalúa el desempeño de estudiantes de tercer y sexto grado de
 #' escuela primaria en las áreas de Matemática, Lectura y Escritura (Lenguaje),
@@ -34,6 +34,6 @@
 #' @source https://es.unesco.org/fieldoffice/santiago/llece/TERCE2013
 #'
 #' @examples
-#' data(terce)
-#' dplyr::glimpse((terce)
-"terce"
+#' data(terce_n)
+#' dplyr::glimpse((terce_n)
+"terce_n"

@@ -37,27 +37,28 @@ devtools::install_github('dacarras/psi2301',force = TRUE)
 # Datos
 
 -   accionescolestivas
--   amistad_intergrupal
+-   amistad\_intergrupal
 -   b5
--   coes_2014
+-   coes\_2014
 -   data
--   dem_16
--   desarollo_psicomotor
+-   dem\_16
+-   desarollo\_psicomotor
 -   elpi3
 -   hsb
 -   homonegatividad
--   iccs_09_chl
--   iccs_09_lat
--   iccs_16_lat
--   iccs_2009
--   iccs_2016
--   ingresos_2016
--   injuv_2012
--   integracion_universitaria
--   life_2000
--   ptsd_data
+-   iccs\_09\_chl
+-   iccs\_09\_lat
+-   iccs\_16\_lat
+-   iccs\_2009
+-   iccs\_2016
+-   ingresos\_2016
+-   injuv\_2012
+-   integracion\_universitaria
+-   life\_2000
+-   ptsd\_data
 -   smoking
--   terce
+-   terce (covariables con respuestas como texto)
+-   terce\_n (covariables con respuestas numéricas)
 -   terremoto
 
 Para acceder a la descripción de los datos ejecutar

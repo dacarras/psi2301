@@ -54,7 +54,8 @@ devtools::install_github('dacarras/psi2301',force = TRUE)
 - life_2000
 - ptsd_data
 - smoking
-- terce
+- terce (covariables con respuestas como texto)
+- terce_n (covariables con respuestas numéricas)
 - terremoto
 
 Para acceder a la descripción de los datos ejecutar `? psi23::[nombre de los datos]`, por ejemplo `? psi2301::smoking`.
