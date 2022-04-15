@@ -5,7 +5,7 @@
 \alias{accionescolestivas}
 \title{Acciones Colectivas}
 \format{
-An object of class \code{spec_tbl_df} (inherits from \code{tbl_df}, \code{tbl}, \code{data.frame}) with 500 rows and 50 columns.
+An object of class \code{spec_tbl_df} (inherits from \code{tbl_df}, \code{tbl}, \code{data.frame}) with 500 rows and 56 columns.
 }
 \usage{
 data(accionescolestivas)

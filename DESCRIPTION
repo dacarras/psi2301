@@ -3,6 +3,7 @@ Type: Package
 Title: Librería para curso de Métodos de Investigación Cuantitativa (psi2301)
 Version: 0.1.2022
 Author: dacarras & pti
+Depends: R (>= 3.5)
 Maintainer: The package maintainer <dacarras@uc.cl>
 Description: Conjunto de funciones para el curso psi2301 Métodos de Investigación Cuantitativa
 Imports: dplyr, tidyverse, openxlsx, devtools
