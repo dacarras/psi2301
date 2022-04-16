@@ -11,7 +11,7 @@ Objeto clase \code{"cross"}; ver \code{\link[qtl]{read.cross}}.
 https://es.unesco.org/fieldoffice/santiago/llece/TERCE2013
 }
 \usage{
-data(terce)
+data(terce_n)
 }
 \description{
 Este estudio evalúa el desempeño de estudiantes de tercer y sexto grado de
