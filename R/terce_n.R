@@ -23,7 +23,7 @@
 #'
 #' @docType data
 #'
-#' @usage data(terce)
+#' @usage data(terce_n)
 #'
 #' @format Objeto clase \code{"cross"}; ver \code{\link[qtl]{read.cross}}.
 #'
